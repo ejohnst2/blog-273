@@ -7,8 +7,7 @@ class ArticlesController < ApplicationController
   end
 
   # GET /articles/1
-  def show
-  end
+  def show; end
 
   # GET /articles/new
   def new
@@ -16,8 +15,7 @@ class ArticlesController < ApplicationController
   end
 
   # GET /articles/1/edit
-  def edit
-  end
+  def edit; end
 
   # POST /articles
   def create
